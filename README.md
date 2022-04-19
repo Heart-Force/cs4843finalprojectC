@@ -20,13 +20,18 @@ Two separete deployments to Google App Engine will be carried out in this projec
 
 The frontend will be sending HTTP requests to the backend. The backend will be processing the frontend HTTP requests and connect to the Firestore database to perform basic CRUD operations. Backend web service will return repsonses to the frontend and frontend in its turn will be displaying the response data.
 
-## Why App Engine:
-App Engine provides access to other google services.
-
 ## Project Diagram:
 ![project_diagram](https://screenshots-bucket-38293.s3.amazonaws.com/diagram.png)
 
+### Why Google App Engine (GAE)?
+* Google App Engine (GAE) provides access to other Google Cloud Platform services.
+* GAE is a Platform as a Service (PaaS) which can be used to build and deploy scalable applications.
+* Faster time to market.
+* All time availability.
+* Easy to use platform.
+
 ## Project Details:
+Project compoenents consist of the below:
 ### Frontend:
 1. ReactJS: JavaScript Framework.
 2. Axios: Establish connection with the backend web service (sends requests and receives responses).
@@ -40,4 +45,6 @@ App Engine provides access to other google services.
 
 ### Database:
 Firestore: Google Cloud Firestore is a NoSQL document database built for automatic scaling, high performance, and ease of application development.
+
+### Google App Engine (GAE):
 
