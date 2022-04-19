@@ -47,4 +47,24 @@ Project compoenents consist of the below:
 Firestore: Google Cloud Firestore is a NoSQL document database built for automatic scaling, high performance, and ease of application development.
 
 ### Google App Engine (GAE):
-
+The below steps describe how the two web services will be deploed to Google App Engine:
+1. Login to your Google Cloud Platform account.
+2. Create a new project for the backend service.
+3. Enable App Engine for the backend service project.
+4. Open your Python web service project.
+5. Create app.yaml file which contains the settings of your backend web service App Engine.
+6. Run the below two commands to deploy the backend web service to Google App Engine.
+```
+gcloud config set project backend-project-name
+gcloud app deploy
+```
+7. Create a new project for the frontend service.
+8. Enable App Engine for the frontend service project.
+9. Open your ReactJS project.
+10. Create app.yaml file which contains the settings of your frontend App Engine.
+11. Run the below two commands to deploy the frontend service to Google App Engine.
+```
+npm run build
+gcloud config set project frontend-project-name
+gcloud app deploy
+```
