@@ -50,18 +50,61 @@ Firestore: Google Cloud Firestore is a NoSQL document database built for automat
 The below steps describe how the two web services will be deploed to Google App Engine:
 1. Login to your Google Cloud Platform account.
 2. Create a new project for the backend service.
+![create_project](https://screenshots-bucket-38293.s3.amazonaws.com/00001.png)
+![enter_project_name](https://screenshots-bucket-38293.s3.amazonaws.com/00002.png)
 3. Enable App Engine for the backend service project.
+![enable_app_engine](https://screenshots-bucket-38293.s3.amazonaws.com/00005.png)
+![select_region](https://screenshots-bucket-38293.s3.amazonaws.com/00006.png)
 4. Open your Python web service project.
 5. Create app.yaml file which contains the settings of your backend web service App Engine.
+```
+# Copyright 2021 Google LLC
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+runtime: python39
+
+handlers:
+  # This handler routes all requests not caught above to your main app. It is
+  # required when static routes are defined, but can be omitted (along with
+  # the entire handlers section) when there are no static files defined.
+- url: /.*
+  script: auto
+```
 6. Run the below two commands to deploy the backend web service to Google App Engine.
 ```
 gcloud config set project backend-project-name
 gcloud app deploy
 ```
 7. Create a new project for the frontend service.
+![enter_project_name](https://screenshots-bucket-38293.s3.amazonaws.com/00002.png)
 8. Enable App Engine for the frontend service project.
+![enable_app_engine](https://screenshots-bucket-38293.s3.amazonaws.com/00003.png)
+![select_region](https://screenshots-bucket-38293.s3.amazonaws.com/00004.png)
 9. Open your ReactJS project.
 10. Create app.yaml file which contains the settings of your frontend App Engine.
+```
+runtime: nodejs16
+handlers:
+  # Serve all static files with url ending with a file extension
+  - url: /(.*\..+)$
+    static_files: build/\1
+    upload: build/(.*\..+)$
+  # Catch all handler to index.html
+  - url: /.*
+    static_files: build/index.html
+    upload: build/index.html
+```
 11. Run the below two commands to deploy the frontend service to Google App Engine.
 ```
 npm run build
