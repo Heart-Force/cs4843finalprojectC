@@ -58,26 +58,16 @@ The below steps describe how the two web services will be deploed to Google App 
 4. Open your Python web service project.
 5. Create app.yaml file which contains the settings of your backend web service App Engine.
 ```
-# Copyright 2021 Google LLC
-#
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
-#
-#      http://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
-
+# runtime: The name of the runtime environment that is used by your app. To use python 3.9 type python39
 runtime: python39
 
 handlers:
-  # This handler routes all requests not caught above to your main app. It is
-  # required when static routes are defined, but can be omitted (along with
-  # the entire handlers section) when there are no static files defined.
+  # The handlers element is a required element in the app.yaml configuration file. 
+  # The element provides a list of URL patterns and descriptions of how they should 
+  # be handled. App Engine can handle URLs by executing application code, or 
+  # by serving static files uploaded with the code, such as images, CSS, or JavaScript.
+  # url: required. The URL pattern, as a regular expression.
+  # script: optional. Specifies the path to the script from the application root directory.
 - url: /.*
   script: auto
 ```
@@ -95,6 +85,7 @@ gcloud app deploy
 9. Open your ReactJS project.
 10. Create app.yaml file which contains the settings of your frontend App Engine.
 ```
+# runtime: The name of the runtime environment that is used by your app.
 runtime: nodejs16
 handlers:
   # Serve all static files with url ending with a file extension
