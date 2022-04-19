@@ -40,8 +40,8 @@ Project compoenents consist of the below:
 ### Backend:
 1. Python
 2. Flask: A web framework, it is a Python module that lets you develop web applications
-3. google-cloud-firestore: SDK for Google Cloud Firestore.
-4. firebase-admin: The Admin SDK is a set of server libraries that lets you interact with Firebase from privileged environments and perform CRUD operations.
+3. Google Cloud Firestore: SDK for Google Cloud Firestore.
+4. Firebase Admin: The Admin SDK is a set of server libraries that lets you interact with Firebase from privileged environments and perform CRUD operations.
 
 ### Database:
 Firestore: Google Cloud Firestore is a NoSQL document database built for automatic scaling, high performance, and ease of application development.
