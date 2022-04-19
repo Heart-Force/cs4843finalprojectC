@@ -1,6 +1,6 @@
 # task-me
 ## Project Overview:
-Task Me is a task management web applciation. The project consists of a frontend and a backend service and both are deployed to Google App Engine. Tasks are stored in a Firestore NoSQL database where tasks will be stored and interacted with through frontend backend requests/responses.
+Task Me is a task management web application. The project consists of a frontend and a backend service and both are deployed to Google App Engine. Created tasks are stored in a Firestore NoSQL database and end users can perform basic CRUD operations (Create, Read, Update, Delete) through frontend-backend requests/responses.
 
 ### Application Screenshots:
 ![app](https://screenshots-bucket-38293.s3.amazonaws.com/app.png)
