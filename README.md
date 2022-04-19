@@ -12,13 +12,13 @@ Task Me is a task management web application. The project consists of a frontend
 ![database](https://screenshots-bucket-38293.s3.amazonaws.com/database.png)
 
 ## Project Goals: 
-Deploy the below to Google App Engine (GAE):
+Deploy the frontend and backend services to Google App Engine (GAE):
 1. Python web service
 2. ReactJS frontend
 
 Two separete deployments to Google App Engine will be carried out in this project, one for the backend web service and another for the frontend.
 
-The frontend will be sending HTTP requests to the backend. The backend will be processing the frontend HTTP requests and connect to the Firestore database and perform basic CRUD operations accordingly. Backend web service will return repsonse to the frontend and frontend in its turn will be displaying the response data.
+The frontend will be sending HTTP requests to the backend. The backend will be processing the frontend HTTP requests and connect to the Firestore database to perform basic CRUD operations. Backend web service will return repsonses to the frontend and frontend in its turn will be displaying the response data.
 
 ## Why App Engine:
 App Engine provides access to other google services.
