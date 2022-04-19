@@ -6,6 +6,8 @@ Deploy the below to Google App Engine (GAE):
 
 Two separete deployments to Google App Engine will be carried out in this project, one for the backend web service and another for the frontend.
 
+The frontend will be sending HTTP requests to the backend. The backend will be processing the frontend HTTP requests and connect to the Firestore database and perform basic CRUD operations accordingly. Backend web service will return repsonse to the frontend and frontend in its turn will be displaying the response data.
+
 ## Why App Engine:
 App Engine provides access to other google services.
 
@@ -15,14 +17,15 @@ App Engine provides access to other google services.
 ## Project Details:
 ### Frontend:
 1. ReactJS: JavaScript Framework.
-2. Axios: Establish connection with the backend web service.
+2. Axios: Establish connection with the backend web service (sends requests and receives responses).
 3. React-Bootstrap: CSS framework to build React-like HTML components.
 
 ### Backend:
 1. Python
-2. Flask
+2. Flask: A web framework, it is a Python module that lets you develop web applications
 3. google-cloud-firestore: SDK for Google Cloud Firestore.
 4. firebase-admin: The Admin SDK is a set of server libraries that lets you interact with Firebase from privileged environments and perform CRUD operations.
 
 ### Database:
 Firestore: Google Cloud Firestore is a NoSQL document database built for automatic scaling, high performance, and ease of application development.
+
