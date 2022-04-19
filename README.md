@@ -85,14 +85,10 @@ gcloud app deploy
 ![create_project](https://screenshots-bucket-38293.s3.amazonaws.com/00001.png)
 * Enter a name for your project.
 ![enter_project_name](https://screenshots-bucket-38293.s3.amazonaws.com/00002.png)
-8. Enable App Engine for the frontend service project.
-  
-  * Go to App Engine and click on Dashboard then click on Create Application.
-
+8. Enable App Engine for the frontend service project.  
+* Go to App Engine and click on Dashboard then click on Create Application.
 ![enable_app_engine](https://screenshots-bucket-38293.s3.amazonaws.com/00003.png)
-
-  * Select App Engine region.
-
+* Select App Engine region.
 ![select_region](https://screenshots-bucket-38293.s3.amazonaws.com/00004.png)
 9. Open your ReactJS project.
 10. Create app.yaml file which contains the settings of your frontend App Engine.
