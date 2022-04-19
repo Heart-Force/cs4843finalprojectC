@@ -87,6 +87,7 @@ gcloud config set project backend-project-name
 gcloud app deploy
 ```
 7. Create a new project for the frontend service.
+![create_project](https://screenshots-bucket-38293.s3.amazonaws.com/00001.png)
 ![enter_project_name](https://screenshots-bucket-38293.s3.amazonaws.com/00002.png)
 8. Enable App Engine for the frontend service project.
 ![enable_app_engine](https://screenshots-bucket-38293.s3.amazonaws.com/00003.png)
