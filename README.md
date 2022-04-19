@@ -50,10 +50,14 @@ Firestore: Google Cloud Firestore is a NoSQL document database built for automat
 The below steps describe how the two web services will be deploed to Google App Engine:
 1. Login to your Google Cloud Platform account.
 2. Create a new project for the backend service.
+* Go to Resource Manager and click on Create Project.
 ![create_project](https://screenshots-bucket-38293.s3.amazonaws.com/00001.png)
+* Enter a name for your project.
 ![enter_project_name](https://screenshots-bucket-38293.s3.amazonaws.com/00002.png)
 3. Enable App Engine for the backend service project.
+* Go to App Engine and click on Dashboard then click on Create Application.
 ![enable_app_engine](https://screenshots-bucket-38293.s3.amazonaws.com/00005.png)
+* Select App Engine region.
 ![select_region](https://screenshots-bucket-38293.s3.amazonaws.com/00006.png)
 4. Open your Python web service project.
 5. Create app.yaml file which contains the settings of your backend web service App Engine.
@@ -77,10 +81,14 @@ gcloud config set project backend-project-name
 gcloud app deploy
 ```
 7. Create a new project for the frontend service.
+* Go to Resource Manager and click on Create Project.
 ![create_project](https://screenshots-bucket-38293.s3.amazonaws.com/00001.png)
+* Enter a name for your project.
 ![enter_project_name](https://screenshots-bucket-38293.s3.amazonaws.com/00002.png)
 8. Enable App Engine for the frontend service project.
+* Go to App Engine and click on Dashboard then click on Create Application.
 ![enable_app_engine](https://screenshots-bucket-38293.s3.amazonaws.com/00003.png)
+* Select App Engine region.
 ![select_region](https://screenshots-bucket-38293.s3.amazonaws.com/00004.png)
 9. Open your ReactJS project.
 10. Create app.yaml file which contains the settings of your frontend App Engine.
