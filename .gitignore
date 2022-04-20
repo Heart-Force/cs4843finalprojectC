@@ -1,0 +1,8 @@
+### VS Code ###
+.vscode/
+
+### frontend ###
+task-me-frontend/node_modules
+task-me-frontend/build
+task-me-frontend/debug.log
+task-me-frontend/.eslintcache
