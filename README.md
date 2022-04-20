@@ -133,3 +133,13 @@ gcloud config set project frontend-project-name
 gcloud app deploy
 ```
 The above command will ask you to confirm the project details, press y and enter, otherwise press n to cancel.
+
+## To run the project locally on your machine:
+1. Clone the project to your machine.
+2. Change the URLs in the frontend constants JS file to connect to the local server.
+3. Move to the frontend folder and run the commands:
+```
+npm install
+npm start
+```
+4. Move to the backend folder and start python project.
