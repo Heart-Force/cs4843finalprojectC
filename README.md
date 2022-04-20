@@ -142,4 +142,4 @@ The above command will ask you to confirm the project details, press y and enter
 npm install
 npm start
 ```
-4. Move to the backend folder and start python project.
+4. Move to the backend folder and install python dependencies then start python project.
