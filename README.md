@@ -1,15 +1,18 @@
 # task-me
 ## Project Overview:
 Task Me is a task management web application. The project consists of a frontend and a backend service and both are deployed to Google App Engine. Created tasks are stored in a Firestore NoSQL database and end users can perform basic CRUD operations (Create, Read, Update, Delete) through frontend-backend requests/responses.
+To start using the applciation, visit the link https://task-me-frontend-1232.uc.r.appspot.com/ and create an account if you do not have one. Otherwise, enter your username and password and click on Sign In. Afterward, you can view, create, update, and delete your own tasks.
 
 ### Application Screenshots:
-![app](https://screenshots-bucket-38293.s3.amazonaws.com/app.png)
-![create](https://screenshots-bucket-38293.s3.amazonaws.com/create.png)
-![update_delete](https://screenshots-bucket-38293.s3.amazonaws.com/update_delete.png)
-![update](https://screenshots-bucket-38293.s3.amazonaws.com/update.png)
+![app](https://screenshots-bucket-38293.s3.amazonaws.com/app_001.png)
+![create](https://screenshots-bucket-38293.s3.amazonaws.com/app_002.png)
+![update_delete](https://screenshots-bucket-38293.s3.amazonaws.com/app_003.png)
+![update1](https://screenshots-bucket-38293.s3.amazonaws.com/app_004.png)
+![update2](https://screenshots-bucket-38293.s3.amazonaws.com/app_005.png)
+![update3](https://screenshots-bucket-38293.s3.amazonaws.com/app_006.png)
 
 ### Database Screenshots:
-![database](https://screenshots-bucket-38293.s3.amazonaws.com/database.png)
+![database](https://screenshots-bucket-38293.s3.amazonaws.com/db_001.png)
 
 ## Project Goals: 
 Deploy the frontend and backend services to Google App Engine (GAE):
