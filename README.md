@@ -80,6 +80,7 @@ handlers:
 gcloud config set project backend-project-name
 gcloud app deploy
 ```
+The above command will ask you to confirm the project details, press y and enter, otherwise press n to cancel.
 7. Create a new project for the frontend service.
 * Go to Resource Manager and click on Create Project.
 ![create_project](https://screenshots-bucket-38293.s3.amazonaws.com/00001.png)
@@ -111,3 +112,4 @@ npm run build
 gcloud config set project frontend-project-name
 gcloud app deploy
 ```
+The above command will ask you to confirm the project details, press y and enter, otherwise press n to cancel.
