@@ -48,6 +48,18 @@ Project compoenents consist of the below:
 
 ### Database:
 Firestore: Google Cloud Firestore is a NoSQL document database built for automatic scaling, high performance, and ease of application development.
+To create a Firestore DB and use it in your project, follow the below steps:
+1. Login to your Firestore account.
+2. Click on add project.
+![database_2](https://screenshots-bucket-38293.s3.amazonaws.com/db_002.png)
+3. Enter project name.
+![database_3](https://screenshots-bucket-38293.s3.amazonaws.com/db_003.png)
+4. Click on project settings.
+![database_4](https://screenshots-bucket-38293.s3.amazonaws.com/db_004.png)
+5. Click on Service Accounts.
+![database_5](https://screenshots-bucket-38293.s3.amazonaws.com/db_005.png)
+6. Select Python and then click on Generate New Key Pair. Place the downloaded JSON file in the project api folder and change its name to key.json
+![database_6](https://screenshots-bucket-38293.s3.amazonaws.com/db_006.png)
 
 ### Google App Engine (GAE):
 The below steps describe how the two web services will be deploed to Google App Engine:
