@@ -3,6 +3,13 @@
 Task Me is a task management web application. The project consists of a frontend and a backend service and both are deployed to Google App Engine. Created tasks are stored in a Firestore NoSQL database and end users can perform basic CRUD operations (Create, Read, Update, Delete) through frontend-backend requests/responses.
 To start using the applciation, visit this [link](https://task-me-frontend-1232.uc.r.appspot.com) and create an account if you do not have one. Otherwise, enter your username and password and click on Sign In. Afterward, you can view, create, update, and delete your own tasks.
 
+## Group Members:
+1. Zain Momin
+2. William Fisher
+3. Anthony Surface
+4. Roberto Rodriguez-Delgado
+5. Samir Stan Yezhnikov
+
 ## Deployed Services URLs:
 ### Frontend: https://task-me-frontend-1232.uc.r.appspot.com
 ### Backend API URL: https://task-me-backend-347600.uc.r.appspot.com
