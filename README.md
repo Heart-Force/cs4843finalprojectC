@@ -11,14 +11,14 @@ To start using the applciation, visit this [link](https://task-me-frontend-1232.
 5. Samir Stan Yezhnikov
 
 ## Deployed Services URLs:
-### Frontend: https://task-me-frontend-1232.uc.r.appspot.com
-### Backend API URL: https://task-me-backend-347600.uc.r.appspot.com (accessible through the frontend only)
+#### Frontend: https://task-me-frontend-1232.uc.r.appspot.com
+#### Backend API URL: https://task-me-backend-347600.uc.r.appspot.com (accessible through the frontend only)
 To use the backend API directly without going through the frontend, you will need to create an account first and then send requests to the API with the needed JWT authentication token using curl, postman, or any other third party tool.
-### Video Tutorial URL: https://screenshots-bucket-38293.s3.amazonaws.com/task_me_video_link.mp4
+#### Video Tutorial URL: https://screenshots-bucket-38293.s3.amazonaws.com/task_me_video_link.mp4
 
 ## Project Goals: 
 Developing the frontend and backend services of the application and then deploying them to Google App Engine (GAE) on Google Cloud Platform:
-1. Python web service
+1. Python backend RESTful API
 2. ReactJS frontend
 
 Two separete deployments to Google App Engine will be carried out in this project, one for the backend RESTful API and another for the frontend.
