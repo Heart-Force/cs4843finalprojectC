@@ -16,7 +16,7 @@ To start using the applciation, visit this [link](https://task-me-frontend-1232.
 2. **Backend API URL:** https://task-me-backend-347600.uc.r.appspot.com (accessible through the frontend only)<br>
     To use the backend API directly without going through the frontend, you will need to create an account first and then send requests to the API with the needed JWT authentication token using curl, postman, or any other third party tool.
 
-3. **Video Tutorial URL:** https://screenshots-bucket-38293.s3.amazonaws.com/task_me_video_link.mp4
+3. **Project Demo Video URL:** https://screenshots-bucket-38293.s3.amazonaws.com/task_me_video_link.mp4
 
 ## Project Goals: 
 1. Developing the frontend and backend services of the application:
