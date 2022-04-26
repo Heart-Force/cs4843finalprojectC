@@ -16,7 +16,7 @@ To start using the applciation, visit this [link](https://task-me-frontend-1232.
 To use the backend API directly without going through the frontend, you will need to create an account first and then send requests to the API with the needed authentication JWT token.
 
 ## Project Architecture and Design:
-The project consists of a backend RESTful API service whcih serves data to the frontend as JSON. The frontend requests data from the backend API using HTTP requests (GET, POST, PUT, and DELETE) and displays received data (JSON data). 
+The project consists of a backend RESTful API service which serves data to the frontend as JSON. The frontend requests data from the backend API using HTTP requests (GET, POST, PUT, and DELETE) and displays received data (JSON data). 
 
 <p align="center">
   <img src="https://screenshots-bucket-38293.s3.amazonaws.com/project_design_and_architecture.png" alt="project_design">
@@ -47,13 +47,13 @@ Both frontend and backend are deployed on Google Cloud Platform and each of them
 ![database](https://screenshots-bucket-38293.s3.amazonaws.com/db_001.png)
 
 ## Project Goals: 
-Deploy the frontend and backend services to Google App Engine (GAE):
+Developing the frontend and backend services of the application and then deploying them to Google App Engine (GAE) on Google Cloud Platform:
 1. Python web service
 2. ReactJS frontend
 
-Two separete deployments to Google App Engine will be carried out in this project, one for the backend web service and another for the frontend.
+Two separete deployments to Google App Engine will be carried out in this project, one for the backend RESTful API and another for the frontend.
 
-The frontend will be sending HTTP requests to the backend. The backend will be processing the frontend HTTP requests and connect to the Firestore database to perform basic CRUD operations. Backend web service will return repsonses to the frontend and frontend in its turn will be displaying the response data.
+The frontend will be sending HTTP requests to the backend. The backend will be processing the frontend HTTP requests and connect to the Firestore database to perform basic CRUD operations. Backend API will return repsonses to the frontend and frontend in its turn will be displaying the response data.
 
 ## Project Details:
 Project compoenents consist of the below:
