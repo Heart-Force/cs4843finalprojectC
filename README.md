@@ -16,7 +16,10 @@ To start using the applciation, visit this [link](https://task-me-frontend-1232.
 To use the backend API directly without going through the frontend, you will need to create an account first and then send requests to the API with the needed authentication JWT token.
 
 ## Project Architecture and Design:
+The project consists of a backend RESTful API service whcih serves data to the frontend as JSON. The frontend requests data from the backend API using HTTP requests (GET, POST, PUT, and DELETE) and displays received data (JSON data). 
 ![project_design](https://screenshots-bucket-38293.s3.amazonaws.com/project_design_and_architecture.png)
+
+Both frontend and backend are deployed on Google Cloud Platform and each of them is running on its own Google App Engine.
 ![project_arch](https://screenshots-bucket-38293.s3.amazonaws.com/project_design.png)
 
 ### Why Google App Engine (GAE)?
