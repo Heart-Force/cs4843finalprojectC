@@ -14,7 +14,7 @@ To start using the applciation, visit this [link](https://task-me-frontend-1232.
 ### Frontend: https://task-me-frontend-1232.uc.r.appspot.com
 ### Backend API URL: https://task-me-backend-347600.uc.r.appspot.com (Accessible through the frontend only)
 To use the backend API directly without going through the frontend, you will need to create an account first and then send requests to the API with the needed JWT authentication token using curl, postman, or any other third party tool.
-### Video tutorial URL: 
+### Video Tutorial URL: 
 
 ## Project Architecture and Design:
 The project consists of a backend RESTful API service which serves data to the frontend as JSON. The frontend requests data from the backend API using HTTP requests (GET, POST, PUT, and DELETE) and displays received data (JSON data). 
