@@ -15,8 +15,9 @@ To start using the applciation, visit this [link](https://task-me-frontend-1232.
 ### Backend API URL: https://task-me-backend-347600.uc.r.appspot.com
 To use the backend API directly without going through the frontend, you will need to create an account first and then send requests to the API with the needed authentication JWT token.
 
-## Project Diagram:
-![project_diagram](https://screenshots-bucket-38293.s3.amazonaws.com/diagram.png)
+## Project Architecture and Design:
+![project_design](https://screenshots-bucket-38293.s3.amazonaws.com/project_design_and_architecture.png)
+![project_arch](https://screenshots-bucket-38293.s3.amazonaws.com/project_design.png)
 
 ### Why Google App Engine (GAE)?
 * Google App Engine (GAE) provides access to other Google Cloud Platform services.
