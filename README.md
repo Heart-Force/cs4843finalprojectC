@@ -15,6 +15,16 @@ To start using the applciation, visit this [link](https://task-me-frontend-1232.
 ### Backend API URL: https://task-me-backend-347600.uc.r.appspot.com
 To use the backend API directly without going through the frontend, you will need to create an account first and then send requests to the API with the needed authentication JWT token.
 
+## Project Diagram:
+![project_diagram](https://screenshots-bucket-38293.s3.amazonaws.com/diagram.png)
+
+### Why Google App Engine (GAE)?
+* Google App Engine (GAE) provides access to other Google Cloud Platform services.
+* GAE is a Platform as a Service (PaaS) which can be used to build and deploy scalable applications.
+* Faster time to market.
+* All time availability.
+* Easy to use platform.
+
 ### Application Screenshots:
 ![app](https://screenshots-bucket-38293.s3.amazonaws.com/app_001.png)
 ![create](https://screenshots-bucket-38293.s3.amazonaws.com/app_002.png)
@@ -34,16 +44,6 @@ Deploy the frontend and backend services to Google App Engine (GAE):
 Two separete deployments to Google App Engine will be carried out in this project, one for the backend web service and another for the frontend.
 
 The frontend will be sending HTTP requests to the backend. The backend will be processing the frontend HTTP requests and connect to the Firestore database to perform basic CRUD operations. Backend web service will return repsonses to the frontend and frontend in its turn will be displaying the response data.
-
-## Project Diagram:
-![project_diagram](https://screenshots-bucket-38293.s3.amazonaws.com/diagram.png)
-
-### Why Google App Engine (GAE)?
-* Google App Engine (GAE) provides access to other Google Cloud Platform services.
-* GAE is a Platform as a Service (PaaS) which can be used to build and deploy scalable applications.
-* Faster time to market.
-* All time availability.
-* Easy to use platform.
 
 ## Project Details:
 Project compoenents consist of the below:
