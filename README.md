@@ -30,8 +30,10 @@ Both frontend and backend are deployed on Google Cloud Platform and each of them
 </p>
 
 ### Why Google App Engine (GAE)?
+Google App Engine is a highly scalable and fully managed serverless platform for developing and hosting web applications. Google App Engine applications are easy to create, maintain, and scale as traffic and data storage change. With App Engine, there are no servers to maintain. You simply upload your application and it's ready to go.
 * Google App Engine (GAE) provides access to other Google Cloud Platform services (Cloud Firestore in our case).
-* GAE is a Platform as a Service (PaaS) which can be used to build and deploy scalable applications.
+* Google App Engine (GAE) is a Platform as a Service (PaaS) which can be used to build and deploy scalable applications.
+* Google App Engine (GAE) is a fully managed environment to allow you to concentrate on developing your application.
 * Faster time to market.
 * All time availability.
 * Easy to use platform.
