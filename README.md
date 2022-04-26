@@ -10,20 +10,22 @@ To start using the applciation, visit this [link](https://task-me-frontend-1232.
 4. Roberto Rodriguez-Delgado
 5. Samir Stan Yezhnikov
 
-## Deployed Services URLs:
-#### Frontend: https://task-me-frontend-1232.uc.r.appspot.com
-#### Backend API URL: https://task-me-backend-347600.uc.r.appspot.com (accessible through the frontend only)
-To use the backend API directly without going through the frontend, you will need to create an account first and then send requests to the API with the needed JWT authentication token using curl, postman, or any other third party tool.
-#### Video Tutorial URL: https://screenshots-bucket-38293.s3.amazonaws.com/task_me_video_link.mp4
+## Deployed Services URLs and Project Demo Video:
+1. **Frontend:** https://task-me-frontend-1232.uc.r.appspot.com
+
+2. **Backend API URL:** https://task-me-backend-347600.uc.r.appspot.com (accessible through the frontend only)<br>
+    To use the backend API directly without going through the frontend, you will need to create an account first and then send requests to the API with the needed JWT authentication token using curl, postman, or any other third party tool.
+
+3. **Video Tutorial URL:** https://screenshots-bucket-38293.s3.amazonaws.com/task_me_video_link.mp4
 
 ## Project Goals: 
-Developing the frontend and backend services of the application and then deploying them to Google App Engine (GAE) on Google Cloud Platform:
-1. Python backend RESTful API
-2. ReactJS frontend
-
-Two separete deployments to Google App Engine will be carried out in this project, one for the backend RESTful API and another for the frontend.
-
-The frontend will be sending HTTP requests to the backend. The backend will be processing the frontend HTTP requests and connect to the Firestore database to perform basic CRUD operations. Backend API will return repsonses to the frontend and frontend in its turn will be displaying the response data.
+1. Developing the frontend and backend services of the application:
+    * Python backend RESTful API
+    * ReactJS frontend
+    
+    The frontend will be sending HTTP requests to the backend. The backend will be processing the frontend HTTP requests and connect to the Firestore database to perform basic CRUD operations. Backend API will return repsonses to the frontend and frontend in its turn will be displaying the response data.
+   
+2. Deploying application services to Google App Engine (GAE) on Google Cloud Platform. Two separete deployments to Google App Engine will be carried out in this project, one for the backend RESTful API and another for the frontend.
 
 ## Project Architecture and Design:
 The project consists of a backend RESTful API service which serves data to the frontend as JSON. The frontend requests data from the backend API using HTTP requests (GET, POST, PUT, and DELETE) and displays received data (JSON data). 
