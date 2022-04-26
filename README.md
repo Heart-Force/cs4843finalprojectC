@@ -50,7 +50,7 @@ Project compoenents consist of the below:
 ### Frontend:
 1. ReactJS: JavaScript Framework.
 2. Axios: Establish connection with the backend web service (sends requests and receives responses).
-3. React-Bootstrap: CSS framework to build React-like HTML components.
+3. React-Bootstrap: CSS framework to build responsive interface for both web browsers and smartphones.
 
 ### Backend:
 1. Python
