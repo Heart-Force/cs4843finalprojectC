@@ -12,7 +12,7 @@ To start using the applciation, visit this [link](https://task-me-frontend-1232.
 
 ## Deployed Services URLs:
 ### Frontend: https://task-me-frontend-1232.uc.r.appspot.com
-### Backend API URL: https://task-me-backend-347600.uc.r.appspot.com (Accessible through the frontend only)
+### Backend API URL: https://task-me-backend-347600.uc.r.appspot.com (accessible through the frontend only)
 To use the backend API directly without going through the frontend, you will need to create an account first and then send requests to the API with the needed JWT authentication token using curl, postman, or any other third party tool.
 ### Video Tutorial URL: 
 
